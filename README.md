@@ -27,9 +27,10 @@ Sounds must be less than 1.5 seconds per file !!
 
 # Known Issues
 - The volume of Bluetooth source is set automatically to 0 upon connecting for some reason.
-- Clicks can be heard in the prompt audio, this may be because of the header data and metadata included (consider removing it on your side)
+- Clicks can be heard in the prompt audio, this is because of the lack of soft mute function
 - Stock sounds are too loud
 - The playback of the prompt audio speeds up when Bluetooth source connects
+- The device can be unstable depending on what source is being connected
 
 # Special Thanks
 Phil Schatzmann (he basically wrote the whole thing that runs this code)
