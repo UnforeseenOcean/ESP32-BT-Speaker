@@ -23,6 +23,8 @@ ESP32 Bluetooth speaker with prompt audio support (this code is for ESP32-A1S/ES
 # How do I add more sounds?
 Add events you want to capture in the code and use `queuePromptSound(sound, length);` where needed.
 
+Sounds must be less than 1.5 seconds per file !!
+
 # Known Issues
 - The volume of Bluetooth source is set automatically to 0 upon connecting for some reason.
 - Clicks can be heard in the prompt audio, this may be because of the header data and metadata included (consider removing it on your side)
